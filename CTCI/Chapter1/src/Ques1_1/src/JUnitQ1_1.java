@@ -38,4 +38,14 @@ public class JUnitQ1_1 {
 	public void testisUniqueChars2() {
 		assertEquals(fExpected,Question1_1.isUniqueChars2(fInput));
 		}
+	
+	@Test
+	public void testisUniqueChars3() {
+		assertEquals(fExpected,Question1_1.isUniqueChars3(fInput));
+		}
+	
+	@Test
+	public void testisUniqueChars4() {
+		assertEquals(fExpected,Question1_1.isUniqueChars4(fInput));
+		}
 	}
